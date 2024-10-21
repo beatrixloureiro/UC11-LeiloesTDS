@@ -146,10 +146,8 @@ public class cadastroVIEW extends javax.swing.JFrame {
         listagem.setVisible(true);
     }//GEN-LAST:event_btnProdutosActionPerformed
     public static void main(String args[]) {
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new cadastroVIEW().setVisible(true);
-            }
+        java.awt.EventQueue.invokeLater(() -> {
+        new cadastroVIEW().setVisible(true);  // Tela principal definida
         });
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
